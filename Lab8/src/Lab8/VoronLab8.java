@@ -20,5 +20,6 @@ public class VoronLab8 {
         LightOnCommand lightOn = new LightOnCommand(light); 
         remote.setCommand(lightOn);
         remote.buttonWasPressed();
+        System.out.println("Light was switched on.");
     }
 }
