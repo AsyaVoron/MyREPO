@@ -15,6 +15,7 @@ public class VoronLab8 {
      */
     public static void main(String[] args) {
         SimpleRemoteControl remote = new SimpleRemoteControl();
+        System.out.println("Simple remote control was created!");
         Light light = new Light();
         LightOnCommand lightOn = new LightOnCommand(light); 
         remote.setCommand(lightOn);
